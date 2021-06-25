@@ -5,7 +5,7 @@
   height: 100vh;
   margin: 0px;
   min-height: 3192px;
-  min-width: 1960px;
+  min-width: 100%px;
   mix-blend-mode: normal;
   overflow: hidden;
   overflow-x: hidden;
@@ -419,7 +419,7 @@
 .x1-1-home-page .inbu-Jzcppk {
   background-color: transparent;
   height: 16px;
-  left: 0px;
+  left: -20px;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
@@ -428,7 +428,7 @@
 .x1-1-home-page .inbu-jKQlch {
   background-color: transparent;
   height: 16px;
-  left: 0px;
+  left: -20px;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
@@ -787,7 +787,7 @@
   mix-blend-mode: normal;
   position: absolute;
   top: 3068px;
-  width: 1960px;
+  width: 100%px;
 }
 .x1-1-home-page .register-uu8qfx {
   background-color: transparent;
@@ -920,7 +920,7 @@
   mix-blend-mode: normal;
   position: absolute;
   top: 1px;
-  width: 1960px;
+  width: 100%;
 }
 .x1-1-home-page .support-AJZaDB {
   background-color: transparent;
@@ -1426,51 +1426,4 @@
   top: 304px;
   white-space: nowrap;
   width: 998px;
-}
-
-
-
-
-@media (min-width: 450px) {
-  .card-wh{
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-  .rectangle-1977-ebFOrT{
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 760px) {
-  .card-wh{
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .rectangle-1977-ebFOrT{
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 900px) {
-  h1.heading {
-    font-size: 3.25em;
-    margin: 0 0 0.3em;
-  }
-}
-
-.card-wh{
-  display: grid;
-  grid-column-gap: 50px;
-  grid-template-columns: auto auto auto;
-}
-
-.card{
-  display: grid;
-  grid-column-gap: 50px;
-  grid-template-columns: auto auto auto;
 }

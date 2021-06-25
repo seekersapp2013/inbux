@@ -2,7 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1960, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <meta name="viewport" content="width=1960, maximum-scale=1.0" /> -->
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
@@ -15,8 +17,17 @@
 
   <!-- or the reference on CDN -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-  </head>
-  <body style="margin: 0; background: #ffffff">
+ 
+<script type="text/javascript">
+  console.log('Screen width: '+screen.width);
+  if (screen.width <= 699 && !sessionStorage.getItem("redirecting")) {
+  window.location.replace("../mobile/index.html"); //path to your mobile site
+  }
+  </script>
+  
+</head>
+  <body style="margin: 0; background: #ffffff" onload="setTimeout('redirect()', 300)">
+
     <div class="container-fluid">
     <input type="hidden" id="anPageName" name="page" value="1-1-home-page" />
     <div class="x1-1-home-page screen">
@@ -193,32 +204,6 @@
 position:absolute;
 z-index: 9999;
 "></iframe>
-      <!-- <img class="vector-AJZaDB" src="img/vector@2x.png" /><img
-        class="rectangle-1720-AJZaDB"
-        src="img/rectangle-1720@1x.png"
-      />
-
-      <div class="kemi-inc-AJZaDB">Kemi Inc</div>
-      <div class="kemi-popoola-AJZaDB valign-text-middle">Kemi Popoola</div>
-      <img class="ellipse-7-AJZaDB" src="img/ellipse-7@2x.png" />
-      <p class="i-have-been-mos-olio-with-inbux-AJZaDB roboto-normal-outer-space-16px">
-        I have been mostly satisfied with the easy to use, secure and user friendly platform from Inbux. The
-        transparency of InBux with showing me how my investments/funds works and moves has given me so much confidence
-        that I have kept on growing my portfolio with Inbux.
-      </p>
-      <img class="rectangle-1720-xO1hyq" src="img/rectangle-1720@1x.png" />
-      <div class="ruth-inc-AJZaDB">Ruth Inc</div>
-      <div class="ruth-momodu-AJZaDB valign-text-middle">Ruth Momodu</div>
-      <img class="pic-AJZaDB" src="img/pic@2x.png" />
-      <p class="after-a-thoroug-vices-to-others-AJZaDB roboto-normal-outer-space-16px">
-        After a thorough in-depth discussion with the Inbux representative, I made the decision to join Inbux and
-        I&#39;ve been very satisfied with the service provided. My contributions are secure and the earnings are not
-        only constant but practically risk-free. Inbux is very client centered and professional and I would happily
-        recommend their services to others.
-      </p>
-      <img class="vector-xO1hyq" src="img/vector-1@2x.png" />
-      <div class="testimonials-AJZaDB roboto-bold-outer-space-32px">Testimonials</div> -->
-
       
       <img class="rectangle-109-AJZaDB" src="img/rectangle-109@1x.png" />
       <div class="sign-up-AJZaDB">

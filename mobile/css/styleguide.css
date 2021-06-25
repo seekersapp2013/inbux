@@ -1,0 +1,76 @@
+:root {
+  --azure-radiance: #0782ff;
+  --blue-haze: #bac2db;
+  --manatee: #8e94a7;
+  --outer-space: #31383c;
+
+  --font-size-l: 20px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 24px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 32px;
+
+  --font-family-product_sans-bold: "Product Sans-Bold", Helvetica;
+  --font-family-product_sans-regular: "Product Sans-Regular", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.productsans-regular-normal-outer-space-16px {
+  color: var(--outer-space);
+  font-family: var(--font-family-product_sans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.productsans-regular-normal-outer-space-14px {
+  color: var(--outer-space);
+  font-family: var(--font-family-product_sans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.productsans-bold-outer-space-32px {
+  color: var(--outer-space);
+  font-family: var(--font-family-product_sans-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.productsans-bold-outer-space-24px {
+  color: var(--outer-space);
+  font-family: var(--font-family-product_sans-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+.productsans-bold-azure-radiance-32px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-product_sans-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-normal-manatee-12px {
+  color: var(--manatee);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+.productsans-regular-normal-manatee-14px {
+  color: var(--manatee);
+  font-family: var(--font-family-product_sans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.productsans-bold-outer-space-20px {
+  color: var(--outer-space);
+  font-family: var(--font-family-product_sans-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+.border-1px-blue-haze {
+  border: 1px solid var(--blue-haze);
+}
