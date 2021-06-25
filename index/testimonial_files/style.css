@@ -1,0 +1,1616 @@
+@import 'dashboard.css';
+@import 'sign-up.css';
+
+@font-face {
+    font-family: 'Product-Sans';
+    src: url('../fonts/ProductSans-Bold.eot');
+    src: url('../fonts/ProductSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProductSans-Bold.woff2') format('woff2'), url('../fonts/ProductSans-Bold.woff') format('woff'), url('../fonts/ProductSans-Bold.ttf') format('truetype'), url('../fonts/ProductSans-Bold.svg#ProductSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product-Sans';
+    src: url('../fonts/ProductSans-Regular.eot');
+    src: url('../fonts/ProductSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProductSans-Regular.woff2') format('woff2'), url('../fonts/ProductSans-Regular.woff') format('woff'), url('../fonts/ProductSans-Regular.ttf') format('truetype'), url('../fonts/ProductSans-Regular.svg#ProductSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/** common CSS **/
+:root {
+    --black: #31383C;
+    --grey: #8E94A7;
+    --blue: #0782FF;
+    --white: #ffffff;
+    --green: #34C759;
+    --orange: #FFCC00;
+    --red: #EF5350;
+}
+
+body {
+    font-family: "Product-Sans", sans-serif;
+    font-weight: normal;
+}
+
+.custom-btn {
+    background: #5ac8fa;
+    background: -moz-linear-gradient(top, #5ac8fa 0%, var(--blue) 100%, #5ac8fa 100%, #207cca 100%, #1e5799 100%);
+    background: -webkit-linear-gradient(top, #5ac8fa 0%,var(--blue) 100%,#5ac8fa 100%,#207cca 100%,#1e5799 100%);
+    background: linear-gradient(to bottom, #5ac8fa 0%,var(--blue) 100%,#5ac8fa 100%,#207cca 100%,#1e5799 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ac8fa', endColorstr='#1e5799',GradientType=0 );
+    border: unset;
+    padding: 18px 99px;
+    box-shadow: 0px 10px 64px rgb(30 60 119 / 25%);
+    border-radius: 10px;
+}
+
+.custom-btn__btnText-content {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#FFFFFF, #D4E9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--black);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    color: var(--black);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--black);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--black);
+    margin: 0;
+}
+
+h6 {
+    margin: 0;
+    text-align: left;
+    color: var(--black);
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: var(--blue);
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+.password-icon {
+    position: relative;
+}
+
+    .password-icon i {
+        position: absolute;
+        bottom: 13%;
+        right: 5%;
+        z-index: 0;
+    }
+
+.customModal .password-icon i {
+    bottom: 25%;
+}
+
+.customModal__msgClose--alert-success {
+    color: var(--blue);
+    background-color: #0782ff1f;
+    border-color: #0782ff1f;
+}
+
+.customModal__msgClose--alert-error {
+    color: var(--red);
+    background-color: #ef535024;
+    border-color: #ef535024;
+}
+
+
+/* simple element */
+.small_text {
+    font-size: 14px;
+    line-height: 18.2px;
+    color: var(--black);
+    text-align: left;
+    margin: 0;
+}
+/* .noti-dropdown {
+    position: relative;
+} */
+.badge {
+    position: absolute;
+    background: #FF3B30;
+    border: 2px solid #FFFFFF;
+    width: 6px;
+    height: 6px;
+    right: 5px;
+    font-size: 0;
+    padding: 4px;
+    color: #FF3B30;
+    border-radius: 50%;
+    top: 5px;
+}
+
+/* modal css */
+.customModal__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/** modal css overwrite **/
+.modal-header,
+.modal-footer,
+.modal-body {
+    background: 0;
+    border: unset;
+    padding: 0;
+}
+
+.modal-content {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px 24px;
+}
+
+.modal-header h6 {
+    margin-bottom: 24px;
+}
+
+/** Bootstrap overide CSS **/
+.navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--black) !important;
+}
+
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link.active {
+        color: var(--blue) !important;
+    }
+
+.btn-light {
+    padding: 11px 24px;
+    background: #F0F2F9;
+    font-family: 'Product-Sans';
+    font-weight: bold;
+    color: var(--black);
+}
+
+.card-deck .card {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.card-footer,
+.card-header {
+    background-color: transparent;
+    border: unset;
+    padding: 0 0;
+    border-radius: unset;
+}
+
+.card-body {
+    padding: 0;
+}
+
+label {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--black);
+}
+
+.form-control {
+    background: #FFFFFF;
+    border: 1px solid #C9CCD8;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 40px;
+}
+
+    .form-control::placeholder {
+        font-size: 14px;
+        line-height: 14px;
+        color: var(--grey);
+    }
+
+textarea.form-control {
+    line-height: 18.2px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+.customModal .custom-control-label::after,
+.customModal .custom-control-label::before {
+    top: 0;
+}
+
+.customModal label.custom-control-label {
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.icon-wrap-position {
+    position: relative;
+}
+
+.capture-btn {
+    margin: 10px 0;
+}
+
+.sign_up_form .custom-btn.capture-btn {
+    margin: 10px 0;
+    padding: 5px 15px;
+}
+
+.sign_up_form .custom-btn.small-btn {
+    padding: 5px 15px;
+}
+
+.common-table--id-details {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sign_up_form .custom-btn.small-btn.delete-btn {
+    padding: 7px 10px;
+    font-size: 12px;
+}
+
+.common-table--id-details .common-table__table::-webkit-scrollbar {
+    width: 4px;
+    height: 5px;
+}
+
+.common-table--id-details .common-table__table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.common-table--id-details .common-table__table::-webkit-scrollbar-thumb {
+    background: var(--grey);
+    border-radius: 2px;
+}
+
+    .common-table--id-details .common-table__table::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+/*========= home page css starts ============*/
+
+/* custom css */
+.header__nav {
+    padding-top: 32px;
+}
+
+.header__logo {
+    padding: 0;
+}
+
+.header__img {
+    width: 64px;
+    height: 16px;
+}
+
+.header__nav-item {
+    padding-left: 32px;
+}
+
+.banner-homepage {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F0F2F9 104.62%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 87%, 77% 95%, 50% 100%, 20% 94%, 0 87%, 0 35%, 0 0);
+    height: 666px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+    .banner-homepage:after {
+        position: absolute;
+        content: "";
+        background-image: url(../../Images/images/Circles.png);
+        width: 100%;
+        height: 650px;
+        background-position: Top center;
+        background-repeat: no-repeat;
+        top: 9%;
+    }
+
+.banner-homepage__wrap {
+    position: relative;
+    z-index: 99;
+    top: -27px;
+    width: 732px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-homepage__subText {
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--grey);
+    margin-bottom: 16px;
+}
+
+.banner-homepage__para {
+    margin-top: 32px;
+}
+
+.banner-homepage__btn {
+    margin-top: 80px;
+}
+
+.circle-arrow__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+}
+
+.circle-arrow__inner {
+    border-radius: 50% !important;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+    width: 100px;
+    height: 100px;
+    top: 0;
+}
+
+
+.whyUsSection {
+    margin-top: 108px;
+}
+
+.whyUsSection__card {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F2F9 102.5%);
+    border: 3px solid #F0F2F9;
+    box-sizing: border-box;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.whyUsSection__body {
+    padding: 0;
+    padding: 24px;
+}
+
+.whyUsSection__title {
+    font-size: 32px;
+    line-height: 32px;
+    color: #5AC8FA;
+    font-weight: bold;
+    margin: 0;
+    background: -webkit-linear-gradient(#5AC8FA, #0782FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whyUsSection___text {
+    padding: 0;
+    line-height: 19.2px;
+    font-size: 16px;
+    color: var(--black);
+    padding-top: 8px;
+}
+
+
+
+.getSatrtedSection {
+    margin-top: 120px;
+}
+
+    .getSatrtedSection .card-body {
+        padding: 24px;
+    }
+
+.getSatrtedSection__arrow-right::before {
+    position: absolute;
+    content: '';
+    background-image: url(../../Images/images/arrow-right.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.getSatrtedSection__arrow-left::after {
+    position: absolute;
+    content: '';
+    background-image: url(../../Images/images/arrow-left.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.getSatrtedSection__card {
+    background: #F0F2F9;
+    border-radius: 1rem;
+    border: unset;
+}
+
+.getSatrtedSection__card-content {
+    display: flex;
+    text-align: left;
+}
+
+.getSatrtedSection__sequence {
+    margin-right: 20px;
+}
+
+.getSatrtedSection__number {
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--blue);
+    background: var(--white);
+    padding: 14px 23px;
+    border-radius: 8px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.getSatrtedSection__content-text {
+    margin: 0;
+    text-align: left;
+    line-height: 20.8px;
+    padding-top: 8px;
+}
+
+.getSatrtedSection__last-sequence .getSatrtedSection__card-content {
+    align-items: center;
+}
+
+.getSatrtedSection__arrow-left {
+    padding-top: 100px;
+    padding-bottom: 170px;
+    left: 260px;
+    position: relative;
+}
+
+.getSatrtedSection .arrow {
+    position: relative;
+    top: 51px;
+}
+
+.getSatrtedSection__arrow-right {
+    padding-bottom: 217px;
+}
+
+.getSatrtedSection__arrow--register {
+    padding-bottom: 168px;
+}
+
+.simplfy {
+    margin: 120px 0;
+}
+
+.simplfy__wrap {
+    background-image: url(../../Images/images/Circles.svg);
+    height: auto;
+    width: 100%;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    box-shadow: inset 0px 11px 8px -10px #e5e5e5, inset 0px -11px 8px -10px #e5e5e5;
+}
+
+/** owl-carousel overide CSS **/
+.owl-nav {
+    position: relative;
+    top: -160px;
+    margin: -25px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    font-size: 45px;
+    color: var(--blue);
+}
+
+button.owl-next {
+    float: right;
+}
+
+.owl-nav .disabled span {
+    color: var(--grey);
+}
+
+/* testinomial section */
+.testimonal__box {
+    border-radius: 15px;
+    padding: 24px;
+    background-color: #F0F2F9;
+    position: relative;
+    min-height: 158px;
+    height: auto;
+}
+
+    .testimonal__box::after {
+        content: "";
+        position: absolute;
+        width: 35px;
+        height: 18px;
+        border-left: 0px solid transparent;
+        border-right: 27px solid transparent;
+        border-top: 20px solid #f0f2f9;
+        margin-bottom: 0px;
+        bottom: -20px;
+        left: 25px;
+    }
+
+.testimonal__author {
+    margin-top: 40px;
+    padding-left: 0;
+    display: flex;
+}
+
+.testimonal__img {
+    display: block;
+    width: 100%;
+    max-width: 50px;
+    margin-right: 12px;
+}
+
+.testimonal__name {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--black);
+}
+
+.testimonal__title {
+    font-size: 14px;
+    color: #9da9ae;
+    margin-top: 8px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.testimonal__description {
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: left;
+    line-height: 20.8px;
+}
+
+/* footer  */
+.footer {
+    background: #F0F2F9;
+    margin-top: 120px;
+}
+
+.footer__reserved {
+    margin: 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__copyright {
+    font-size: 20px !important;
+    margin-top: 6px !important;
+    padding-right: 3px;
+}
+
+.footer__reserved p {
+    color: var(--grey);
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+}
+
+.footer__wrap-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.footer__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.footer__info-terms,
+.footer__info {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.footer__wrap li {
+    padding: 0 16px;
+}
+
+.footer__social {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--black);
+}
+
+.footer__icon {
+    margin-right: 9.67px;
+}
+
+    .footer__icon::before {
+        color: var(--grey);
+    }
+
+.footer__logo {
+    width: 47.14px;
+    height: 16px;
+    margin-right: 60px;
+}
+/*========= home page css ends ============*/
+
+/*========= about us page css starts ============*/
+
+.common-banner__textWrap {
+    margin: auto;
+    margin-top: 50px;
+    width: 96%;
+}
+
+.teamSection__people .card {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F2F9 102.5%);
+    border: 3px solid #F0F2F9;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.teamSection__people .card-body {
+    padding: 24px;
+}
+
+.teamSection__people .testimonal__name {
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--black);
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+.teamSection__people .testimonal__title {
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--black);
+    margin-top: 8px;
+}
+
+.testimonal__image img {
+    width: 80px;
+    margin-right: 24px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.teamSection__people p {
+    text-align: left;
+    color: var(--black);
+    line-height: 18.2px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.owl-carousel .owl-item .teamSection__people img {
+    display: block;
+    width: 80px;
+}
+
+.testimonal__social {
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+    .testimonal__social > div {
+        margin-right: 18px;
+    }
+
+.teamSection__people .card_sub_head i {
+    width: 16.67px;
+    height: 13.33px;
+    color: var(--grey);
+    margin-right: 9.67px;
+}
+
+.brokerSection {
+    margin-top: 120px;
+}
+
+.teamSection {
+    margin-top: 120px;
+}
+
+    .brokerSection .owl-nav,
+    .teamSection .owl-nav {
+        top: -120px;
+    }
+
+.common-banner {
+    padding: 5rem 0 2rem;
+    position: relative;
+    z-index: 99;
+    margin-top: 50px;
+}
+
+.common-banner__head {
+    background: #fff;
+    display: inline;
+    padding: 15px 32px;
+    border-radius: 15px;
+    position: relative;
+    top: 0;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.common-banner:before {
+    position: absolute;
+    background: #F0F2F9;
+    clip-path: polygon(49% 27%, 100% 0, 100% 100%, 0 100%, 0 0);
+    content: "";
+    height: 323px;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+.common-banner__para {
+    position: relative;
+    font-size: 14px;
+    color: var(--black);
+    font-weight: 400;
+    line-height: 18.2px;
+}
+
+.testimonal__card-content {
+    display: flex;
+}
+/*========= about us page css ends ============*/
+
+/*========= press page css ends ============*/
+.common-banner--press::before {
+    height: 360px;
+}
+
+.press {
+    position: relative;
+    z-index: 99;
+    margin-top: 60px;
+}
+
+.press__img {
+    width: 100%;
+}
+
+.card--press {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F2F9 102.5%);
+    border: 3px solid #F0F2F9;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 12px;
+    margin-top: 24px;
+}
+
+.card-body--press {
+    padding: 0;
+}
+
+.press__card-para {
+    font-size: 14px;
+    line-height: 18.2px;
+    color: var(--black);
+    margin: 0;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.press__card-head {
+    margin-top: 24px;
+}
+
+.press__footer-para {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--grey);
+    margin-top: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/*========= press page css ends ============*/
+
+/*========= support page css ends ============*/
+.supportForm {
+    margin-top: 120px;
+}
+
+.support {
+    margin-top: 30px;
+}
+/* 21-06 */
+.supportForm--card {
+    background: #F0F2F9;
+    border-radius: 16px;
+    padding: 32px;
+    border: unset;
+    max-width: 564px;
+    width: 100%;
+    margin: 0 auto;
+}
+    /* 21-06 */
+    .supportForm--card h3 {
+        margin-bottom: 32px;
+    }
+
+.supportForm__row {
+    margin: 0 auto;
+}
+
+.supportForm__form {
+    margin: 0 auto;
+}
+
+.support__head {
+    margin: 0;
+}
+
+.support__para {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--black);
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.support__info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.support_card {
+    padding: 24px 25px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F2F9 102.5%);
+    border: 3px solid #F0F2F9;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.support__icon {
+    margin-right: 10px;
+}
+
+    .support__icon:before {
+        background: -webkit-linear-gradient(#5AC8FA, #0782FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 19px;
+    }
+
+.support__social {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 19px;
+    color: var(--black);
+}
+
+.support_col {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+/*========= support page css ends ============*/
+/*========= faq page css starts ===========*/
+.card--faq {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F2F9 102.5%);
+    border: 3px solid #F0F2F9;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.faq .col-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 24px;
+}
+
+.card-body--faq h6 {
+    margin-bottom: 12px;
+}
+
+.common-banner--faq::before {
+    height: 267px;
+}
+
+/*========= faq page css starts ===========*/
+.card--faqs {
+    padding: 0 32px 32px 32px;
+    background: #ffffff;
+    border: 3px solid #F0F2F9;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.accordion {
+    background-color: #ffffff;
+    color: #31383C;
+    ;
+    cursor: pointer;
+    padding: 32px 0 16px 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+    .active,
+    .accordion:hover {
+        background-color: #ffffff;
+    }
+
+    .accordion:after {
+        content: url('../../Images/images/up-down-accordance.svg');
+        float: right;
+        margin-left: 5px;
+    }
+
+    .accordion.active:after {
+        content: url('../../Images/images/up-arrow-accordance.svg');
+    }
+
+.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+    .panel p {
+        text-align: left;
+        Line-height: 18.2px;
+        font-weight: 400;
+    }
+
+.faq-box hr {
+    border: 1px solid #DADDE7;
+    margin-bottom: 0;
+}
+
+@media (max-width:767px) {
+    .card--faqs {
+        padding: 0 15px 15px 15px;
+    }
+
+    .accordion {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+
+/*========= term and condition page css starts ===========*/
+.card--term {
+    padding: 24px;
+    background: #ffffff;
+    border: 3px solid #F0F2F9;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.press--paragraph {
+    text-align: justify;
+}
+
+@media (max-width: 1400px) {
+    .common-banner__head--term {
+        top: -3px;
+    }
+}
+/*========= term and condition page css ends ===========*/
+
+
+
+/* header rounded borders for about-us, faq, press, support */
+.common-banner__head {
+    position: relative;
+}
+
+    .common-banner__head::before {
+        position: absolute;
+        content: '';
+        height: 20px;
+        width: 20px;
+        background: #fff;
+        border-top-right-radius: 60%;
+        top: 4px;
+        left: -20px;
+    }
+
+    .common-banner__head::after {
+        position: absolute;
+        content: '';
+        height: 20px;
+        width: 20px;
+        background: #fff;
+        border-top-right-radius: 60%;
+        top: 4px;
+        right: -20px;
+    }
+
+.banner-title {
+    position: relative;
+}
+
+.common-banner__round-border::before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: #F0F2F9;
+    /*background: #000;*/
+    border-top-right-radius: 80%;
+    top: -2px;
+    left: -52px;
+    z-index: 9;
+}
+
+.common-banner__round-border::after {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: #F0F2F9;
+    /*background: #000;*/
+    border-top-left-radius: 80%;
+    top: -4px;
+    right: -52px;
+    z-index: 9;
+}
+
+/* media */
+/* media query for rounded-border */
+.common-banner__head--press {
+    top: 4px;
+}
+
+.common-banner__head--faq {
+    top: -9px;
+}
+
+.common-banner__head--support {
+    top: 1px;
+}
+
+@media (max-width:1400px) {
+    .common-banner__head--aboutus {
+        top: -2.6px;
+    }
+
+    .common-banner__head--press {
+        top: 2px;
+    }
+
+    .common-banner__head--faq {
+        top: -10px;
+    }
+}
+
+@media (max-width:1296px) {
+    .common-banner__head--press {
+        top: -1px;
+    }
+
+    .common-banner__head--faq {
+        top: -12px;
+    }
+
+    .common-banner__head--support {
+        top: -2.6px;
+    }
+}
+
+@media (max-width:1130.5px) {
+    .common-banner__head--aboutus {
+        top: -5px;
+    }
+
+    .common-banner__head--press {
+        top: -5px;
+    }
+
+    .common-banner__head--faq {
+        top: -13px;
+    }
+
+    .common-banner__head--support {
+        top: -4px;
+    }
+}
+
+@media (max-width:1024px) {
+    .common-banner__head::before,
+    .common-banner__head::after {
+        content: none;
+    }
+
+    .common-banner__round-border::after,
+    .common-banner__round-border::before {
+        content: none;
+    }
+
+    .common-banner__head--press {
+        top: -13px;
+    }
+}
+
+@media (max-width:767px) {
+    .common-banner__head--press {
+        top: -25px;
+    }
+}
+/* Container */
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width:1199.5px) {
+    /*========= home page media css start ============*/
+    .getSatrtedSection__arrow-left {
+        left: 20%;
+    }
+
+
+    /* footer css */
+    .footer__wrap,
+    .footer__info-terms, .footer__info {
+        display: block;
+    }
+
+    .footer__info-terms, .footer__info {
+        margin-top: 10px;
+    }
+
+        .footer__info-terms, .footer__info li {
+            padding: 0;
+        }
+    /*========= home page media css ends =======*/
+    /*========= about us page media css starts ============*/
+    .testimonal__social > div:first-child {
+        margin-right: 18px;
+    }
+
+    .testimonal__social {
+        display: block;
+        margin-top: 5px;
+    }
+    /*========= about us page media css ends ============*/
+    /*========= support page css starts ===========*/
+    .support__social {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .support__icon {
+        margin-right: 5px;
+    }
+
+        .support__icon:before {
+            font-size: 14px;
+        }
+
+    /*========= support page css starts ===========*/
+    /*========= press page css starts ========*/
+
+    /*========= press page css ends ========*/
+
+}
+
+@media (max-width:991.5px) {
+    /*========= home page media css start ============*/
+    h6 {
+        line-height: 16px;
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .header__nav-item {
+        padding-left: 5px;
+    }
+
+    .whyUsSection__title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .whyUsSection__card {
+        height: 120px;
+    }
+
+    .getSatrtedSection__arrow-left {
+        left: 10%;
+    }
+
+    /*========= home page media css ends =======*/
+    /*========= about us page media css starts ============*/
+    .common-banner {
+        margin-top: 20px;
+    }
+
+        .common-banner:before {
+            height: 323px;
+        }
+
+    .common-banner__textWrap {
+        margin-top: 20px;
+    }
+
+    .common-banner__textWrap {
+        width: 100%;
+    }
+    /*========= about us page media css ends ============*/
+    /** owl-carousel overide CSS **/
+    .owl-nav {
+        position: relative;
+        top: -10px;
+        margin: 0;
+        text-align: center;
+    }
+
+    button.owl-next {
+        float: unset;
+        margin-left: 40px;
+    }
+
+    .brokerSection .owl-nav, .teamSection .owl-nav {
+        top: -12px;
+    }
+    /*========= press page css ends ============*/
+    .press {
+        margin-top: 12px;
+    }
+    /*========= press page css ends ============*/
+    /*========= support page css starts ===========*/
+    .support_col {
+        margin-bottom: 12px;
+    }
+
+    /*========= support page css end ===========*/
+    /*========= faq css starts ==========*/
+    .faq .col-12 {
+        padding-bottom: 12px;
+    }
+    /*========= faq css ends ==========*/
+}
+
+@media (max-width:800px) {
+    /*========= home page media css start ============*/
+    /* common css */
+    h1 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .custom-btn {
+        padding: 10px 30px;
+    }
+
+    .custom-btn__btnText-content {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    /* custom css */
+    .banner-homepage__wrap {
+        width: 100%;
+        top: 0;
+    }
+
+    .banner-homepage__subText {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .banner-homepage__para {
+        margin-top: 0;
+    }
+
+    .banner-homepage__btn {
+        margin-top: 0;
+    }
+
+    .banner-homepage:after {
+        height: 100%;
+    }
+
+    .banner-homepage {
+        height: 400px;
+    }
+
+    .whyUsSection,
+    .getSatrtedSection,
+    .footer {
+        margin-top: 40px;
+    }
+
+    .card.getSatrtedSection__card {
+        margin-bottom: 12px;
+    }
+
+    .simplfy {
+        margin: 40px 0;
+    }
+    /*========= home page media css ends =======*/
+    /*========= about us page media css starts ============*/
+    .brokerSection,
+    .teamSection {
+        margin-top: 40px;
+    }
+
+    .teamSection__people .testimonal__name {
+        font-size: 20px;
+    }
+
+    .teamSection__people .testimonal__title {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    /*========= about us page media css ends ============*/
+    /*========= support page css starts ===========*/
+    .supportForm {
+        margin-top: 40px;
+    }
+    /*========= support page css starts ===========*/
+    /*========= faq css starts ==========*/
+
+    /*========= faq css ends ==========*/
+}
+
+@media (max-width:767.5px) {
+    /*========= home page media css start ============*/
+
+
+    .card-deck .card.whyUsSection__card {
+        margin-bottom: 12px;
+    }
+
+    .getSatrtedSection__arrow-right::before,
+    .getSatrtedSection__arrow-left::after {
+        content: none;
+    }
+
+    .getSatrtedSection__arrow-left {
+        padding-top: 0;
+        padding-bottom: 0;
+        left: 0;
+        position: unset;
+    }
+
+    .getSatrtedSection__arrow-right::before {
+        padding-top: 0;
+        padding-bottom: 0;
+        left: 0;
+        position: unset;
+    }
+
+    .getSatrtedSection__arrow-right {
+        padding-bottom: 0;
+    }
+
+    .getSatrtedSection__arrow--register {
+        padding-bottom: 0;
+    }
+
+    .getSatrtedSection .arrow {
+        top: 0;
+    }
+
+    .simplfy__wrap {
+        padding: 50px 0;
+        background-size: 100%;
+    }
+
+    /*========= home page media css ends =======*/
+    /*========= about us page media css starts ============*/
+    .brokerSection .owl-nav,
+    .teamSection .owl-nav {
+        top: -10px;
+    }
+
+    .common-banner:before {
+        height: 330px;
+        clip-path: unset;
+    }
+
+    .common-banner__head {
+        background: transparent;
+    }
+
+    section.aboutus-banner.aboutus-banner--space {
+        padding-top: 32px;
+    }
+
+    .common-banner {
+        background: #F0F2F9;
+        padding-top: 32px;
+    }
+    /*========= about us page media css ends ============*/
+    /*========= press page css ends ============*/
+    .common-banner__head--press {
+        top: 0;
+    }
+
+    .card--press {
+        margin: 0;
+    }
+
+    .common-banner__head--faq {
+        top: 0;
+    }
+
+    .common-banner__head--support {
+        top: 0;
+    }
+    /*========= press page css ends ============*/
+}
+
+@media (max-width:567px) {
+    /*========= home page media css start ============*/
+    .footer__wrap li {
+        padding: 0;
+    }
+
+    .footer__wrap-main {
+        display: block;
+    }
+    /*========= home page media css ends =======*/
+    /*========= about us page media css starts ============*/
+
+    .common-banner:before {
+        content: none;
+    }
+
+    .common-banner__head {
+        background: transparent;
+    }
+    /*========= about us page media css ends ============*/
+    /*========= press page css ends ============*/
+    .common-banner--press {
+        background: transparent;
+        padding-top: 40px;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .common-banner__head {
+        padding: 0 0;
+    }
+    /*========= press page css ends ============*/
+    /*========= support page css starts ===========*/
+    .support {
+        margin-top: 20px;
+    }
+
+    .common-banner--support {
+        background: transparent;
+        padding-top: 40px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    /*========= support page css ends ===========*/
+    /*========= faq page css starts =========*/
+    .common-banner--faq {
+        background: transparent;
+        padding-top: 40px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    /*========= faq page css ends =========*/
+}
+
+@media (max-width:360px) {
+    /*========= home page media css start ============*/
+    .getSatrtedSection__card-content {
+        display: block;
+    }
+
+    .getSatrtedSection__sequence {
+        margin-right: 0;
+        width: 30%;
+        text-align: center;
+        margin: 0 auto 15px auto;
+    }
+
+    .getSatrtedSection__content-text {
+        text-align: center;
+    }
+
+    .getSatrtedSection__card-content h6 {
+        text-align: center;
+    }
+    /*========= home page media css ends =======*/
+    /*========= about us page media css starts ============*/
+    .testimonal__card-content {
+        display: block;
+        text-align: center;
+    }
+
+    .testimonal__image img {
+        margin: 0 auto;
+    }
+
+    .teamSection__people .testimonal__name,
+    .teamSection__people p,
+    .teamSection__people .testimonal__title {
+        text-align: center;
+    }
+    /*========= about us page media css ends ============*/
+}

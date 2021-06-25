@@ -1,0 +1,990 @@
+/* screen - faq */
+
+.faq {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1517px;
+  min-width: 1960px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.faq .about-us-WRZODV {
+  background-color: transparent;
+  height: auto;
+  left: 94px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1px;
+  white-space: nowrap;
+  width: 77px;
+}
+.faq .are-my-investments-secured-gm8VcC {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 28.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  white-space: nowrap;
+  width: 405px;
+}
+.faq .are-the-fees-fixed-qhXozT {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 32px;
+  white-space: nowrap;
+  width: 282px;
+}
+.faq .as-a-prospectiv-bux-signup-page-OaXpg1 {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 68px;
+  width: 928px;
+}
+.faq .bg-1K5P7F {
+  background-color: transparent;
+  height: 185px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-C3DmwQ {
+  background-color: transparent;
+  height: 136px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1013px;
+}
+.faq .bg-CdXjLI {
+  background-color: transparent;
+  height: 167px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-GoNeyL {
+  background-color: transparent;
+  height: 167px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-OaXpg1 {
+  background-color: transparent;
+  height: 136px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1013px;
+}
+.faq .bg-b4fWCB {
+  background-color: transparent;
+  height: 167px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-gm8VcC {
+  background-color: transparent;
+  height: 185px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-jZc5OG {
+  background-color: transparent;
+  height: 145px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-pmpWZE {
+  background-color: transparent;
+  height: 145px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-qhXozT {
+  background-color: transparent;
+  height: 114px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-sxHHdR {
+  background-color: transparent;
+  height: 167px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-t7mgxe {
+  background-color: transparent;
+  height: 114px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.faq .bg-xr2CCd {
+  background-color: transparent;
+  height: 114px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1013px;
+}
+.faq .callblack24dp-1-xLO62r {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.faq .can-i-choose-my-tmentscontracts-CdXjLI {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 28.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  width: 405px;
+}
+.faq .can-i-negotiate-interest-rates-pmpWZE {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 28.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  white-space: nowrap;
+  width: 405px;
+}
+.faq .does-my-withdra-attract-charges-1K5P7F {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 28.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  width: 405px;
+}
+.faq .emailblack24dp-1-OY9Umv {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.faq .faq-EQm6qQ {
+  background-color: transparent;
+  height: auto;
+  left: 936px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 190px;
+  white-space: nowrap;
+  width: 90px;
+}
+.faq .faq-WRZODV {
+  background-color: transparent;
+  height: auto;
+  left: 378px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1px;
+  white-space: nowrap;
+  width: 39px;
+}
+.faq .field-0FAGsj {
+  background-color: transparent;
+  height: 36px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 119px;
+}
+.faq .footer-EQm6qQ {
+  background-color: transparent;
+  height: 108px;
+  left: 0px;
+  position: absolute;
+  top: 1393px;
+  width: 1966px;
+}
+.faq .header-EQm6qQ {
+  background-color: transparent;
+  height: 36px;
+  left: 212px;
+  position: absolute;
+  top: 32px;
+  width: 1535px;
+}
+.faq .home-WRZODV {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 52px;
+}
+.faq .how-do-i-invest-on-inbux-C3DmwQ {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 32px;
+  white-space: nowrap;
+  width: 382px;
+}
+.faq .how-do-i-signup-on-inbux-OaXpg1 {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 32px;
+  white-space: nowrap;
+  width: 391px;
+}
+.faq .how-often-can-i-om-my-portfolio-xr2CCd {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 32px;
+  white-space: nowrap;
+  width: 669px;
+}
+.faq .inbu-T1aXfE {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.faq .inbu-jaSxdi {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.faq .inbux-charges-a-applicable-fees-GoNeyL {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 99px;
+  white-space: nowrap;
+  width: 405px;
+}
+.faq .inbux-makes-the-ment-funds-into-CdXjLI {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 99px;
+  width: 405px;
+}
+.faq .inbux-will-allo-can-be-started-C3DmwQ {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 68px;
+  width: 928px;
+}
+.faq .inforambertorguk-OY9Umv {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 137px;
+}
+.faq .inforambertorguk-xLO62r {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 152px;
+}
+.faq .interest-rate-is-20-t7mgxe {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 68px;
+  white-space: nowrap;
+  width: 161px;
+}
+.faq .investment-term-ed-by-investors-sxHHdR {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 99px;
+  width: 405px;
+}
+.faq .investments-on-ropriate-bodies-gm8VcC {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 99px;
+  width: 405px;
+}
+.faq .location-hhB9Lr {
+  background-color: transparent;
+  height: 20px;
+  left: 829px;
+  position: absolute;
+  top: 30px;
+  width: 414px;
+}
+.faq .locationonblack24dp-1-SrXxFx {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.faq .log-in-0FAGsj {
+  background-color: transparent;
+  height: auto;
+  left: 33px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 11px;
+  white-space: nowrap;
+  width: 55px;
+}
+.faq .log-in-CjbY73 {
+  background-color: transparent;
+  height: 36px;
+  left: 1417px;
+  position: absolute;
+  top: 0px;
+  width: 120px;
+}
+.faq .logo-CjbY73 {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  position: absolute;
+  top: 10px;
+  width: 87px;
+}
+.faq .logo-hhB9Lr {
+  background-color: transparent;
+  height: 16px;
+  left: 212px;
+  position: absolute;
+  top: 32px;
+  width: 87px;
+}
+.faq .mail-hhB9Lr {
+  background-color: transparent;
+  height: 20px;
+  left: 381px;
+  position: absolute;
+  top: 30px;
+  width: 175px;
+}
+.faq .menu-CjbY73 {
+  background-color: transparent;
+  height: 14px;
+  left: 848px;
+  position: absolute;
+  top: 11px;
+  width: 535px;
+}
+.faq .no-charges-are-s-upon-maturity-1K5P7F {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 99px;
+  white-space: nowrap;
+  width: 405px;
+}
+.faq .phone-hhB9Lr {
+  background-color: transparent;
+  height: 20px;
+  left: 598px;
+  position: absolute;
+  top: 30px;
+  width: 190px;
+}
+.faq .press-releases-WRZODV {
+  background-color: transparent;
+  height: auto;
+  left: 212px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1px;
+  white-space: nowrap;
+  width: 124px;
+}
+.faq .privacy-policy-hhB9Lr {
+  background-color: transparent;
+  height: auto;
+  left: 1635px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 33px;
+  white-space: nowrap;
+  width: 115px;
+}
+.faq .rectangle-2025-hhB9Lr {
+  background-color: var(--porcelain);
+  height: 80px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1960px;
+}
+.faq .span0-YB9fbr {
+
+}
+.faq .span1-YB9fbr {
+
+}
+.faq .subtract-EQm6qQ {
+  background-color: transparent;
+  height: 267px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 108px;
+  width: 1960px;
+}
+.faq .support-WRZODV {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1px;
+  white-space: nowrap;
+  width: 69px;
+}
+.faq .terms-conditions-hhB9Lr {
+  background-color: transparent;
+  height: auto;
+  left: 1431px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 33px;
+  white-space: nowrap;
+  width: 163px;
+}
+.faq .vector-6i44ZG {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 14px;
+}
+.faq .vector-7zAMKz {
+  background-color: transparent;
+  height: 70.00%;
+  left: 6.84%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15.00%;
+  width: 86.33%;
+}
+.faq .vector-A9WRAc {
+  background-color: transparent;
+  height: 16px;
+  left: 13px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 8px;
+}
+.faq .vector-BeuOIP {
+  background-color: transparent;
+  height: 85.00%;
+  left: 18.78%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5.00%;
+  width: 62.45%;
+}
+.faq .vector-DCxTQk {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.faq .vector-EfghCN {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.faq .vector-I6OnZ6 {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 14px;
+}
+.faq .vector-VzFeOz {
+  background-color: transparent;
+  height: 75.00%;
+  left: 11.43%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 12.50%;
+  width: 77.14%;
+}
+.faq .vector-lYvOVr {
+  background-color: transparent;
+  height: 16px;
+  left: 13px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 8px;
+}
+.faq .vector-sW1asn {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.faq .we-invest-your-l-oil-companies-b4fWCB {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 99px;
+  width: 405px;
+}
+.faq .what-are-inbux-vestment-tenors-jZc5OG {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 28.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  white-space: nowrap;
+  width: 405px;
+}
+.faq .what-are-my-investment-terms-sxHHdR {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 28.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  white-space: nowrap;
+  width: 405px;
+}
+.faq .what-does-inbux-est-my-funds-in-b4fWCB {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 28.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  white-space: nowrap;
+  width: 405px;
+}
+.faq .what-fees-does-inbux-charge-GoNeyL {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 28.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  white-space: nowrap;
+  width: 405px;
+}
+.faq .what-is-the-interest-rate-t7mgxe {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 32px;
+  white-space: nowrap;
+  width: 380px;
+}
+.faq .x-T1aXfE {
+  background-color: transparent;
+  height: 16px;
+  left: 66px;
+  position: absolute;
+  top: 1px;
+  width: 21px;
+}
+.faq .x-jaSxdi {
+  background-color: transparent;
+  height: 16px;
+  left: 66px;
+  position: absolute;
+  top: 1px;
+  width: 21px;
+}
+.faq .x1-EQm6qQ {
+  background-color: transparent;
+  height: 136px;
+  left: 212px;
+  position: absolute;
+  top: 301px;
+  width: 1017px;
+}
+.faq .x10-EQm6qQ {
+  background-color: transparent;
+  height: 167px;
+  left: 735px;
+  position: absolute;
+  top: 621px;
+  width: 494px;
+}
+.faq .x11-EQm6qQ {
+  background-color: transparent;
+  height: 145px;
+  left: 1258px;
+  position: absolute;
+  top: 852px;
+  width: 494px;
+}
+.faq .x12-EQm6qQ {
+  background-color: transparent;
+  height: 185px;
+  left: 212px;
+  position: absolute;
+  top: 950px;
+  width: 494px;
+}
+.faq .x13-EQm6qQ {
+  background-color: transparent;
+  height: 185px;
+  left: 735px;
+  position: absolute;
+  top: 950px;
+  width: 494px;
+}
+.faq .x2-EQm6qQ {
+  background-color: transparent;
+  height: 136px;
+  left: 212px;
+  position: absolute;
+  top: 461px;
+  width: 1017px;
+}
+.faq .x2021-inbux-all-rights-reserved-hhB9Lr {
+  background-color: transparent;
+  height: auto;
+  left: 864px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 96px;
+  white-space: nowrap;
+  width: 233px;
+}
+.faq .x270-ozumba-mbad-ia-island-lagos-SrXxFx {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 376px;
+}
+.faq .x3-EQm6qQ {
+  background-color: transparent;
+  height: 167px;
+  left: 1258px;
+  position: absolute;
+  top: 301px;
+  width: 494px;
+}
+.faq .x4-EQm6qQ {
+  background-color: transparent;
+  height: 167px;
+  left: 1258px;
+  position: absolute;
+  top: 492px;
+  width: 494px;
+}
+.faq .x5-EQm6qQ {
+  background-color: transparent;
+  height: 167px;
+  left: 212px;
+  position: absolute;
+  top: 621px;
+  width: 494px;
+}
+.faq .x6-EQm6qQ {
+  background-color: transparent;
+  height: 114px;
+  left: 1258px;
+  position: absolute;
+  top: 1021px;
+  width: 494px;
+}
+.faq .x7-EQm6qQ {
+  background-color: transparent;
+  height: 114px;
+  left: 212px;
+  position: absolute;
+  top: 1159px;
+  width: 494px;
+}
+.faq .x8-EQm6qQ {
+  background-color: transparent;
+  height: 145px;
+  left: 1258px;
+  position: absolute;
+  top: 683px;
+  width: 494px;
+}
+.faq .x9-EQm6qQ {
+  background-color: transparent;
+  height: 114px;
+  left: 212px;
+  position: absolute;
+  top: 812px;
+  width: 1017px;
+}
+.faq .yearly-jZc5OG {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 99px;
+  white-space: nowrap;
+  width: 52px;
+}
+.faq .yes-fees-are-fi-non-negotiable-qhXozT {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 68px;
+  white-space: nowrap;
+  width: 316px;
+}
+.faq .yes-negotiable-ts-are-executed-pmpWZE {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 99px;
+  white-space: nowrap;
+  width: 401px;
+}
+.faq .you-can-only-wi-estment-matures-xr2CCd {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 68px;
+  white-space: nowrap;
+  width: 668px;
+}

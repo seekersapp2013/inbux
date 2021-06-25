@@ -1,0 +1,987 @@
+/* screen - about-us */
+
+.about-us {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1581px;
+  min-width: 1960px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.about-us .about-us-GfsdFx {
+  background-color: transparent;
+  height: auto;
+  left: 94px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 77px;
+}
+.about-us .about-us-M7VFVJ {
+  background-color: transparent;
+  height: auto;
+  left: 887px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: 187px;
+}
+.about-us .about-us-MpTUx9 {
+  background-color: transparent;
+  height: 323px;
+  left: 0px;
+  position: absolute;
+  top: 108px;
+  width: 1966px;
+}
+.about-us .an-inbux-accred-that-they-make-sK4NW0 {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  width: 617px;
+}
+.about-us .an-inbux-accred-that-they-make-w1pkAl {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  width: 617px;
+}
+.about-us .bg-F3WByW {
+  background-color: transparent;
+  height: 268px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 703px;
+}
+.about-us .bg-YSsAMR {
+  background-color: transparent;
+  height: 268px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 703px;
+}
+.about-us .bg-sK4NW0 {
+  background-color: transparent;
+  height: 214px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 703px;
+}
+.about-us .bg-w1pkAl {
+  background-color: transparent;
+  height: 214px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 703px;
+}
+.about-us .callblack24dp-1-b4xFy3 {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.about-us .callblack24dp-1-eDpVZ5 {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.about-us .callblack24dp-1-nZt3iW {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.about-us .ceo-F3WByW {
+  background-color: transparent;
+  height: auto;
+  left: 185px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 84px;
+  white-space: nowrap;
+  width: 47px;
+}
+.about-us .coo-YSsAMR {
+  background-color: transparent;
+  height: auto;
+  left: 185px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 84px;
+  white-space: nowrap;
+  width: 54px;
+}
+.about-us .edi-jana-sK4NW0 {
+  background-color: transparent;
+  height: auto;
+  left: 185px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  white-space: nowrap;
+  width: 167px;
+}
+.about-us .ellipse-7-F3WByW {
+  background-color: transparent;
+  height: 80px;
+  left: 43px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 32px;
+  width: 110px;
+}
+.about-us .emailblack24dp-1-1R97LX {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.about-us .emailblack24dp-1-ErzQtv {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.about-us .emailblack24dp-1-Pj5mUu {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.about-us .faq-GfsdFx {
+  background-color: transparent;
+  height: auto;
+  left: 378px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 39px;
+}
+.about-us .field-2MWChM {
+  background-color: transparent;
+  height: 36px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 119px;
+}
+.about-us .footer-MpTUx9 {
+  background-color: transparent;
+  height: 108px;
+  left: 0px;
+  position: absolute;
+  top: 1457px;
+  width: 1966px;
+}
+.about-us .gbemisola-awe-w1pkAl {
+  background-color: transparent;
+  height: auto;
+  left: 185px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  white-space: nowrap;
+  width: 314px;
+}
+.about-us .group-4340-sK4NW0 {
+  background-color: transparent;
+  height: 80px;
+  left: 43px;
+  position: absolute;
+  top: 32px;
+  width: 110px;
+}
+.about-us .group-4340-w1pkAl {
+  background-color: transparent;
+  height: 80px;
+  left: 43px;
+  position: absolute;
+  top: 32px;
+  width: 110px;
+}
+.about-us .header-MpTUx9 {
+  background-color: transparent;
+  height: 36px;
+  left: 212px;
+  position: absolute;
+  top: 32px;
+  width: 1535px;
+}
+.about-us .home-GfsdFx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 52px;
+}
+.about-us .in-bux-is-a-tec-d-profitability-M7VFVJ {
+  background-color: transparent;
+  height: auto;
+  left: 245px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 173px;
+  width: 1472px;
+}
+.about-us .inbu-uamRGM {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.about-us .inbu-xMZMmx {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.about-us .inforambertorguk-1R97LX {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 137px;
+}
+.about-us .inforambertorguk-ErzQtv {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 130px;
+}
+.about-us .inforambertorguk-Pj5mUu {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 157px;
+}
+.about-us .inforambertorguk-b4xFy3 {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 152px;
+}
+.about-us .inforambertorguk-eDpVZ5 {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 134px;
+}
+.about-us .inforambertorguk-nZt3iW {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 134px;
+}
+.about-us .kemi-abisola-F3WByW {
+  background-color: transparent;
+  height: auto;
+  left: 185px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 44px;
+  white-space: nowrap;
+  width: 261px;
+}
+.about-us .kemi-is-a-visio-ive-investments-F3WByW {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  width: 617px;
+}
+.about-us .location-EKqZsY {
+  background-color: transparent;
+  height: 20px;
+  left: 829px;
+  position: absolute;
+  top: 30px;
+  width: 414px;
+}
+.about-us .locationonblack24dp-1-mMOu1G {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.about-us .log-in-0txs13 {
+  background-color: transparent;
+  height: 36px;
+  left: 1417px;
+  position: absolute;
+  top: 0px;
+  width: 120px;
+}
+.about-us .log-in-2MWChM {
+  background-color: transparent;
+  height: auto;
+  left: 33px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 11px;
+  white-space: nowrap;
+  width: 55px;
+}
+.about-us .logo-0txs13 {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  position: absolute;
+  top: 10px;
+  width: 87px;
+}
+.about-us .logo-EKqZsY {
+  background-color: transparent;
+  height: 16px;
+  left: 212px;
+  position: absolute;
+  top: 32px;
+  width: 87px;
+}
+.about-us .mail-EKqZsY {
+  background-color: transparent;
+  height: 20px;
+  left: 381px;
+  position: absolute;
+  top: 30px;
+  width: 175px;
+}
+.about-us .mail-sK4NW0 {
+  background-color: transparent;
+  height: 20px;
+  left: 185px;
+  position: absolute;
+  top: 84px;
+  width: 168px;
+}
+.about-us .mail-w1pkAl {
+  background-color: transparent;
+  height: 20px;
+  left: 185px;
+  position: absolute;
+  top: 84px;
+  width: 195px;
+}
+.about-us .menu-0txs13 {
+  background-color: transparent;
+  height: 14px;
+  left: 848px;
+  position: absolute;
+  top: 11px;
+  width: 535px;
+}
+.about-us .our-approved-brokers-MpTUx9 {
+  background-color: transparent;
+  height: 306px;
+  left: 212px;
+  position: absolute;
+  top: 1031px;
+  width: 1537px;
+}
+.about-us .our-approved-brokers-xbhm9J {
+  background-color: transparent;
+  height: auto;
+  left: 543px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 450px;
+}
+.about-us .our-team-MpTUx9 {
+  background-color: transparent;
+  height: 360px;
+  left: 212px;
+  position: absolute;
+  top: 551px;
+  width: 1537px;
+}
+.about-us .our-team-zQUpk0 {
+  background-color: transparent;
+  height: auto;
+  left: 676px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 197px;
+}
+.about-us .phone-EKqZsY {
+  background-color: transparent;
+  height: 20px;
+  left: 598px;
+  position: absolute;
+  top: 30px;
+  width: 190px;
+}
+.about-us .phone-sK4NW0 {
+  background-color: transparent;
+  height: 20px;
+  left: 373px;
+  position: absolute;
+  top: 84px;
+  width: 172px;
+}
+.about-us .phone-w1pkAl {
+  background-color: transparent;
+  height: 20px;
+  left: 400px;
+  position: absolute;
+  top: 84px;
+  width: 172px;
+}
+.about-us .pic-YSsAMR {
+  background-color: transparent;
+  height: 80px;
+  left: 43px;
+  position: absolute;
+  top: 32px;
+  width: 110px;
+}
+.about-us .press-releases-GfsdFx {
+  background-color: transparent;
+  height: auto;
+  left: 212px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 124px;
+}
+.about-us .privacy-policy-EKqZsY {
+  background-color: transparent;
+  height: auto;
+  left: 1635px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 33px;
+  white-space: nowrap;
+  width: 115px;
+}
+.about-us .rectangle-2025-EKqZsY {
+  background-color: var(--porcelain);
+  height: 80px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1960px;
+}
+.about-us .span0-9CsJRc {
+
+}
+.about-us .span0-NGaGr9 {
+
+}
+.about-us .span0-sdxuUy {
+
+}
+.about-us .span1-9CsJRc {
+
+}
+.about-us .span1-NGaGr9 {
+
+}
+.about-us .span1-sdxuUy {
+
+}
+.about-us .span2-NGaGr9 {
+
+}
+.about-us .span2-sdxuUy {
+
+}
+.about-us .specifically-th-rning-investors-M7VFVJ {
+  background-color: transparent;
+  height: auto;
+  left: 245px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 229px;
+  width: 1472px;
+}
+.about-us .subtract-M7VFVJ {
+  background-color: transparent;
+  height: 323px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1960px;
+}
+.about-us .support-GfsdFx {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 69px;
+}
+.about-us .terms-conditions-EKqZsY {
+  background-color: transparent;
+  height: auto;
+  left: 1431px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 33px;
+  white-space: nowrap;
+  width: 163px;
+}
+.about-us .tobi-baba-YSsAMR {
+  background-color: transparent;
+  height: auto;
+  left: 185px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 44px;
+  white-space: nowrap;
+  width: 197px;
+}
+.about-us .tobi-is-a-visio-ive-investments-YSsAMR {
+  background-color: transparent;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: 18.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  width: 617px;
+}
+.about-us .vector-AzxPrD {
+  background-color: transparent;
+  height: 85.00%;
+  left: 18.78%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5.00%;
+  width: 62.45%;
+}
+.about-us .vector-BjPnAY {
+  background-color: transparent;
+  height: 70.00%;
+  left: 7.75%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15.00%;
+  width: 84.49%;
+}
+.about-us .vector-E8vhyW {
+  background-color: transparent;
+  height: 75.00%;
+  left: 11.43%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 12.50%;
+  width: 77.14%;
+}
+.about-us .vector-GhqJcc {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 189px;
+  width: 17px;
+}
+.about-us .vector-GxJfcK {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.about-us .vector-PxTBAx {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.about-us .vector-Vt52xL {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.about-us .vector-W2bjxZ {
+  background-color: transparent;
+  height: 16px;
+  left: 13px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 8px;
+}
+.about-us .vector-ZwKnKJ {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 14px;
+}
+.about-us .vector-bEcCy9 {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 14px;
+}
+.about-us .vector-bOhbsg {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.about-us .vector-e81xWg {
+  background-color: transparent;
+  height: 75.00%;
+  left: 11.43%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 12.50%;
+  width: 77.14%;
+}
+.about-us .vector-m7bKoB {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.about-us .vector-oJ6hGL {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.about-us .vector-rgayTk {
+  background-color: transparent;
+  height: 70.00%;
+  left: 7.75%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15.00%;
+  width: 84.49%;
+}
+.about-us .vector-sxmODp {
+  background-color: transparent;
+  height: 70.00%;
+  left: 6.84%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15.00%;
+  width: 86.33%;
+}
+.about-us .vector-ty7ia9 {
+  background-color: transparent;
+  height: 75.00%;
+  left: 11.43%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 12.50%;
+  width: 77.14%;
+}
+.about-us .vector-uxYjcU {
+  background-color: transparent;
+  height: 2.50%;
+  left: 49.08%;
+  position: absolute;
+  top: 48.75%;
+  width: 1.84%;
+}
+.about-us .vector-vHWAJY {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 216px;
+  width: 17px;
+}
+.about-us .vector-xIjZxX {
+  background-color: transparent;
+  height: 16px;
+  left: 13px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 8px;
+}
+.about-us .vector-xbhm9J {
+  background-color: transparent;
+  height: 20px;
+  left: 1519px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 189px;
+  width: 17px;
+}
+.about-us .vector-zQUpk0 {
+  background-color: transparent;
+  height: 20px;
+  left: 1519px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 216px;
+  width: 17px;
+}
+.about-us .x-uamRGM {
+  background-color: transparent;
+  height: 16px;
+  left: 66px;
+  position: absolute;
+  top: 1px;
+  width: 21px;
+}
+.about-us .x-xMZMmx {
+  background-color: transparent;
+  height: 16px;
+  left: 66px;
+  position: absolute;
+  top: 1px;
+  width: 21px;
+}
+.about-us .x1-xbhm9J {
+  background-color: transparent;
+  height: 214px;
+  left: 49px;
+  position: absolute;
+  top: 92px;
+  width: 706px;
+}
+.about-us .x1-zQUpk0 {
+  background-color: transparent;
+  height: 268px;
+  left: 49px;
+  position: absolute;
+  top: 92px;
+  width: 708px;
+}
+.about-us .x2-xbhm9J {
+  background-color: transparent;
+  height: 214px;
+  left: 784px;
+  position: absolute;
+  top: 92px;
+  width: 706px;
+}
+.about-us .x2-zQUpk0 {
+  background-color: transparent;
+  height: 268px;
+  left: 784px;
+  position: absolute;
+  top: 92px;
+  width: 708px;
+}
+.about-us .x2021-inbux-all-rights-reserved-EKqZsY {
+  background-color: transparent;
+  height: auto;
+  left: 864px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 96px;
+  white-space: nowrap;
+  width: 233px;
+}
+.about-us .x270-ozumba-mbad-ia-island-lagos-mMOu1G {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  white-space: nowrap;
+  width: 376px;
+}
